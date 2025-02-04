@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantitative Strategy Dashboard</title>
+    <title>Dashboard de Estratégia Quantitativa</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@
             padding: 0;
             background-color: #f8f9fa;
         }
-        /* Top menu navigation */
+        /* Menu de navegação superior */
         .topnav {
             background-color: #007bff;
             overflow: hidden;
@@ -32,7 +32,7 @@
             background-color: #0056b3;
         }
 
-        /* Main container */
+        /* Contêiner principal */
         .container {
             max-width: 1080px;
             margin: 0 auto;
@@ -40,7 +40,7 @@
             text-align: center;
         }
 
-        /* Title styling */
+        /* Estilo do título */
         h1 {
             color: #333;
             font-size: 2rem;
@@ -49,156 +49,166 @@
 </head>
 <body>
 
-    <!-- Top Navigation Menu -->
+    <!-- Menu de Navegação Superior -->
     <div class="topnav">
-		<a href="index.html">Home</a>
-        <a href="backtesting_report.html">📑 Backtesting Report (1 Feb 2002 - 14 Jan 2025)</a>
-        <a href="current_positions.html">📊 Paper Trading: Current Positions</a>
-        <a href="historical_returns.html">📈 Paper Trading: Historical Returns (From 17 Jan 2-25)</a>
+        <a href="index.html">Início</a>
+        <a href="backtesting_report.html">📑 Relatório de Backtesting (03 Nov 2014 - 30 Jan 2025)</a>
+        <a href="current_positions.html">📊 Paper Trading: Posições Atuais</a>
+        <a href="historical_returns.html">📈 Paper Trading: Retornos Históricos (Desde 01 Fev 2025)</a>
     </div>
 
 <div id="summary" style="padding: 30px; background-color: white; max-width: 1080px; margin: 0 auto; text-align: left; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;">
-    <h2 style="font-size: 2rem; color: #333; margin-bottom: 20px;">Quantitative Strategy Dashboard</h2>
-	<h5> If you're here, it means you have received the invitation link to access this platform. Otherwise, please ensure to shut down this webpage.</h5>
+    <h2 style="font-size: 2rem; color: #333; margin-bottom: 20px;">Dashboard de Estratégia Quantitativa</h2>
+    <h5> Se você está aqui, significa que recebeu o link de convite para acessar esta plataforma. Caso contrário, por favor, feche esta página.</h5>
     
-    <p style="font-size: 1rem; color: #555; line-height: 1.6;">Welcome to the Quantitative Strategy Dashboard. This platform has been designed to provide real-time insights and detailed analysis of our trading strategy’s performance over an extended period. It is aimed primarily at students, researchers, and anyone interested in studying financial strategies without involving real-world financial risk.</p>
+    <p style="font-size: 1rem; color: #555; line-height: 1.6;">Bem-vindo ao Dashboard de Estratégia Quantitativa. Esta plataforma foi projetada para fornecer insights em tempo real e análise detalhada do
+	desempenho da nossa estratégia de negociação ao longo de um período prolongado. Ela é voltada principalmente para estudantes, pesquisadores e qualquer pessoa interessada em estudar estratégias financeiras
+	sem envolver riscos financeiros reais.</p>
     
-    <p style="font-size: 1rem; color: #555; line-height: 1.6;">My approach focuses on simulating trading strategies using historical data to evaluate potential trading decisions.
-	The data presented here is based on a backtesting framework and provides an overview of simulated trading positions, performance metrics, and returns over time.
-	These metrics are crucial for understanding how the strategy would have behaved in different market conditions.</p>
-	
-	<p style="font-size: 1rem; color: #555; line-height: 1.6;">Notice that my strategy uses solely S&P 500 components and uses financing rates derived from the Federal Reserve Rate plus a 0.5% spread. </p>
+    <p style="font-size: 1rem; color: #555; line-height: 1.6;">O núcleo desta estratégia é baseado em metodologias avançadas de <b>aprendizado de máquina, inteligência artificial e ciência de dados
+	para aprimorar a tomada de decisão em finanças</b>. Integrando modelos de ponta como aprendizado profundo, aprendizado por reforço e detecção de anomalias, essa estratégia busca combinar análise
+	preditiva com técnicas de gestão de risco para otimizar decisões de negociação.</p>
     
-    <p style="font-size: 1rem; color: #555; line-height: 1.6;">The dashboard is divided into three key sections, each providing a different perspective on the trading strategy (Navigate through these sections using the links in the top menu):</p>
+    <p style="font-size: 1rem; color: #555; line-height: 1.6;">Nossa abordagem foca em simular estratégias de negociação usando dados históricos para avaliar decisões de negociação potenciais.
+	Os dados apresentados aqui são baseados em uma estrutura de backtesting e fornecem uma visão geral das posições de negociação simuladas, métricas de desempenho e retornos ao longo do tempo.
+	Essas métricas são cruciais para entender como a estratégia teria se comportado em diferentes condições de mercado.</p>
+    
+    <p style="font-size: 1rem; color: #555; line-height: 1.6;">Observe que nossa estratégia utiliza exclusivamente os componentes do Ibovespa e usa taxas de aluguel de ações para as posições.</p>
+    
+    <p style="font-size: 1rem; color: #555; line-height: 1.6;">O dashboard é dividido em três seções principais, cada uma oferecendo uma perspectiva diferente sobre a estratégia de negociação 
+	(navegue por essas seções usando os links no menu superior):</p>
     
     <ul style="padding-left: 20px; font-size: 1rem; color: #555;">
-        <li style="margin-bottom: 15px; line-height: 1.6; "><a href="backtesting_report.html" style = "text-decoration: underline; color: #555;">📑 <strong>Backtesting Report (1 Feb 2002 - 14 Jan 2025):</strong></a> This section provides a comprehensive analysis of the trading strategy’s performance between <em>1 Feb 2002</em> and <em>14 Jan 2025</em>. It includes detailed performance metrics, including returns, volatility, risk-adjusted performance, and key statistics derived from historical data. The backtesting results reflect how the strategy would have performed if it had been implemented during this time period.</li>
+        <li style="margin-bottom: 15px; line-height: 1.6; "><a href="backtesting_report.html" style = "text-decoration: underline; color: #555;">📑 <strong>Relatório de Backtesting (1 Fev 2002 - 14 Jan 2025):</strong></a> 
+		Esta seção fornece uma análise abrangente do desempenho da estratégia de negociação entre <em>1 Fev 2002</em> e <em>14 Jan 2025</em>. Inclui métricas detalhadas de desempenho, como retornos, volatilidade,
+		desempenho ajustado ao risco e estatísticas chave derivadas de dados históricos. Os resultados do backtesting refletem como a estratégia teria se comportado se tivesse sido implementada durante este período.</li>
         
-			<div style="display: flex;  align-items: flex-start; justify-content: space-between; margin-bottom:20px"> <!-- Table Section justify-content: space-between;--> 
+            <div style="display: flex;  align-items: flex-start; justify-content: space-between; margin-bottom:20px"> <!-- Seção da Tabela justify-content: space-between;--> 
 
-			<div style="width: 60%;"><h4>Backtesting's Key Metrics:</h4> 
+            <div style="width: 60%;"><h4>Métricas principais do Backtesting:</h4> 
 
-			<table border="2" cellpadding="3" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center;">
-				<thead>
-					<tr>
-						<th style="width: 33%; text-align: left;">Metric</th>
-						<th style="width: 33%; text-align: center;">Strategy</th>
-						<th style="width: 33%; text-align: center;">Eureka Hedge Fund Index</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td style="text-align: left;"><strong>CAGR</strong></td>
-						<td>44.9%</td>
-						<td>5.77%</td>
-					</tr>
-					<tr>
-						<td style="text-align: left;"><strong>Sharpe</strong></td>
-						<td>2.56</td>
-						<td>1.25</td>
-					</tr>
-					<tr>
-						<td style="text-align: left;"><strong>Sortino</strong></td>
-						<td>4.31</td>
-						<td>2.88</td>
-					</tr>
-					<tr>
-						<td style="text-align: left;"><strong>Volatility Ann.</strong></td>
-						<td>14.79%</td>
-						<td>4.49%</td>
-					</tr>
-				</tbody>
-			</table>
+            <table border="2" cellpadding="3" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center;">
+                <thead>
+                    <tr>
+                        <th style="width: 33%; text-align: left;">Métrica</th>
+                        <th style="width: 33%; text-align: center;">Estratégia</th>
+                        <th style="width: 33%; text-align: center;">Índice Hedge Funda ANBIMA (IHFA)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="text-align: left;"><strong>CAGR</strong></td>
+                        <td>44,9%</td>
+                        <td>5,77%</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;"><strong>Sharpe</strong></td>
+                        <td>2,56</td>
+                        <td>1,25</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;"><strong>Sortino</strong></td>
+                        <td>4,31</td>
+                        <td>2,88</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;"><strong>Volatilidade Anual</strong></td>
+                        <td>14,79%</td>
+                        <td>4,49%</td>
+                    </tr>
+                </tbody>
+            </table>
 
-			</div> 
-
-
-			<div style="margin-left: 20px; border: 2px solid #000; background-color: #fefefe; padding: 10px; text-align: right">
+            </div> 
 
 
-			<canvas id="sharpeChart"></canvas>
+            <div style="margin-left: 20px; border: 2px solid #000; background-color: #fefefe; padding: 10px; text-align: right">
 
-			<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-			<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
-			<script>
-				const ctx = document.getElementById('sharpeChart').getContext('2d');
-				new Chart(ctx, {
-					type: 'bar',
-					data: {
-						labels: ['Sharpe Ratio'],
-						datasets: [
-							{
-								label: 'Strategy',
-								data: [2.56],
-								backgroundColor: 'rgba(0, 0, 139, 0.7)', // Dark blue
-								// backgroundColor: 'rgba(54, 162, 235, 0.7)', // Blue
-								borderColor: 'rgba(54, 162, 235, 1)',
-								borderWidth: 0
-							},
-							{
-								label: 'Eureka Hedge Fund Index',
-								data: [1.25],
-								backgroundColor: 'rgba(128, 0, 32, 0.7)', // Vine color (burgundy)
-								//backgroundColor: 'rgba(255, 99, 132, 0.7)', // Red
-								borderColor: 'rgba(255, 99, 132, 1)',
-								borderWidth: 0
-							}
-						]
-					},
-					options: {
-						responsive: true,
-						maintainAspectRatio: false,
-						scales: {
-							y: {
-								beginAtZero: true
-							}
-						},
-						plugins: {
-							datalabels: {
-								display: true, // Ensure labels are shown
-								color: 'black',
-								font: {
-									size: 14,
-									weight: 'bold'
-								},
-								align: 'end',  // Aligns the data label above the bar
-								anchor: 'end', // Anchors the label to the top of the bar
-								formatter: (value) => value.toFixed(2), // Formatting the number to two decimals
-								offset: 10, // Adds space between the top of the bar and the label
-							}
-						}
-					}
-				});
-			</script>
 
-			 </div>
-		</div>
-		
-		<li style="margin-bottom: 15px; line-height: 1.6;"><a href="current_positions.html" style = "text-decoration: underline; color: #555;">
-		📊 <strong>Paper Trading Current Positions:</strong></a> Here, you can explore the active paper trading positions as of today. This section reflects real-time simulated positions based on the latest market data and the
-		predefined strategy. It includes details on the stocks, weights, prices, and exposure currently held in the simulated portfolio, helping you track the strategy’s implementation and performance.</li>
+            <canvas id="sharpeChart"></canvas>
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+            <script>
+                const ctx = document.getElementById('sharpeChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Relação Sharpe'],
+                        datasets: [
+                            {
+                                label: 'Estratégia',
+                                data: [2.78],
+                                backgroundColor: 'rgba(0, 0, 139, 0.7)', // Azul escuro
+                                borderColor: 'rgba(54, 162, 235, 1)',
+                                borderWidth: 0
+                            },
+                            {
+                                label: 'IHFA',
+                                data: [1.39],
+                                backgroundColor: 'rgba(128, 0, 32, 0.7)', // Cor vinho
+                                borderColor: 'rgba(255, 99, 132, 1)',
+                                borderWidth: 0
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        plugins: {
+                            datalabels: {
+                                display: true, // Garante que os rótulos sejam exibidos
+                                color: 'black',
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                },
+                                align: 'end',  // Alinha o rótulo de dados acima da barra
+                                anchor: 'end', // Anexa o rótulo ao topo da barra
+                                formatter: (value) => value.toFixed(2), // Formatação do número para duas casas decimais
+                                offset: 10, // Adiciona espaço entre o topo da barra e o rótulo
+                            }
+                        }
+                    }
+                });
+            </script>
+
+             </div>
+        </div>
         
-        <li style="margin-bottom: 15px; line-height: 1.6;"><a href="historical_returns.html" style = "text-decoration: underline; color: #555;"> 📈 <strong>Paper Trading Historical Returns:</strong></a> This section tracks the returns
-		of the paper trading strategy since its commencement on <em>17 Jan 2025</em>. It provides a historical overview of the strategy’s performance, showcasing the returns achieved over time, as well as offering
-		insights into periods of high performance and drawdown, which are essential for evaluating the effectiveness of the strategy.</li>
+        <li style="margin-bottom: 15px; line-height: 1.6;"><a href="current_positions.html" style = "text-decoration: underline; color: #555;">
+        📊 <strong>Posições Atuais de Paper Trading:</strong></a> Aqui, você pode explorar as posições ativas de paper trading até o momento. 
+		Esta seção reflete as posições simuladas em tempo real com base nos dados de mercado mais recentes e na estratégia predefinida. Inclui detalhes sobre as ações, 
+		pesos, preços e exposições atualmente mantidas no portfólio simulado, ajudando a acompanhar a implementação e o desempenho da estratégia.</li>
+        
+        <li style="margin-bottom: 15px; line-height: 1.6;"><a href="historical_returns.html" style = "text-decoration: underline; color: #555;"> 📈 <strong>Retornos Históricos de Paper Trading:</strong></a>
+		Esta seção acompanha os retornos
+        da estratégia de paper trading desde o início em <em>01 Fev 2025</em>. Ela fornece uma visão histórica do desempenho da estratégia, mostrando os retornos alcançados ao longo do tempo, além de oferecer
+        insights sobre períodos de alto desempenho e drawdown, que são essenciais para avaliar a eficácia da estratégia.</li>
     </ul>
     
-    <p style="font-size: 1rem; color: #555; line-height: 1.6;">To navigate through the platform, simply use the top menu to switch between the different sections. 
-	Each section contains valuable insights and interactive data that can be explored further. The goal is to provide a comprehensive understanding of the strategy’s performance
-	and offer data-driven insights for those interested in financial modeling and algorithmic trading.</p>
+    <p style="font-size: 1rem; color: #555; line-height: 1.6;">Para navegar pela plataforma, basta usar o menu superior para alternar entre as diferentes seções. 
+    Cada seção contém insights valiosos e dados interativos que podem ser explorados mais a fundo. O objetivo é fornecer uma compreensão abrangente do desempenho da estratégia
+    e oferecer insights baseados em dados para aqueles interessados em modelagem financeira e trading algorítmico.</p>
 
-    <p style="font-size: 1rem; color: #555; line-height: 1.6;">I encourage you to use the platform as an educational tool to experiment with different strategies and
-	see how they would have performed historically. While the data is informative, remember that past performance does not guarantee future results, and the simulated nature of the platform
-	means no real-world money is involved. Therefore, you are free to analyze and learn without the risk of financial loss.</p>
+    <p style="font-size: 1rem; color: #555; line-height: 1.6;">Convido você a usar a plataforma como uma ferramenta educacional para experimentar diferentes estratégias e
+    ver como elas teriam se comportado historicamente. Embora os dados sejam informativos, lembre-se de que o desempenho passado não garante resultados futuros, e a natureza simulada da plataforma
+    significa que não há dinheiro real envolvido. Portanto, sinta-se à vontade para explorar e aprender com segurança!</p>
 
-	<p style="font-size: 1rem; color: #555; line-height: 1.6;">If you have any questions or need further assistance, please don't hesitate to reach out to me.</p>
- 
-    <p style="font-size: 14px; color: #555; text-align: left; margin-top: 30px; background-color: #f1f1f1; padding: 15px; border-radius: 5px;">
-        <strong>Disclaimer:</strong> The information presented on this dashboard is intended solely for educational, research, and academic purposes. It does not constitute financial advice, investment recommendations,
-		or endorsement of any trading strategy or product. Users should not make any investment decisions based on the data presented here without conducting their own due diligence. The platform creators are not responsible
-		for any actions or decisions taken by users based on the information provided. Past performance of any trading strategy is not indicative of future results, and trading in real-world financial markets involves
-		significant risk.
-    </p>
+	<p style="font-size: 1rem; color: #555; line-height: 1.6;">Se você tiver alguma dúvida ou precisar de mais assistência, não hesite em entrar em contato comigo.</p>
+
+	<p style="font-size: 14px; color: #555; text-align: left; margin-top: 30px; background-color: #f1f1f1; padding: 15px; border-radius: 5px;">
+		<strong>Disclaimer:</strong> As informações apresentadas neste dashboard são destinadas exclusivamente para fins educacionais, de pesquisa e acadêmicos. Não constituem aconselhamento financeiro, 
+		recomendações de investimento endosse de qualquer estratégia ou produto de negociação. Os usuários não devem tomar decisões de investimento com base nos dados aqui apresentados sem realizar sua própria diligência.
+		Os criadores da plataforma não são responsáveis por qualquer ação ou decisão tomada pelos usuários com base nas informações fornecidas. O desempenho passado de qualquer estratégia de negociação não é 
+		indicativo de resultados futuros, e negociar nos mercados financeiros reais envolve riscos significativos.
+	</p>
 </div>
 </body>
 </html>
+
