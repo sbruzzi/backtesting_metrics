@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Dashboard de Estratégia Quantitativa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        /* Menu de navegação superior */
+        .topnav {
+            background-color: #007bff;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .topnav a {
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .topnav a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Contêiner principal */
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilo do título */
+        h1 {
+            color: #333;
+            font-size: 2rem;
+        }
+        h2 {
+            color: #007BFF;
+			font-size: 1.25rem;
+        }
+        p {
+            margin-bottom: 10px;
+			font-size: 1rem; 
+			color: #555; 
+			line-height: 1.6;
+        }
+        .faq-item {
+            margin: 20px;
+			max-width:1360px;
+			align: center
+        }
+		ul {
+		padding-left: 20px; 
+		font-size: 1rem; 
+		color: #555;
+		}
+		li{
+			margin-bottom: 15px; 
+			line-height: 1.1;
+		}
+    </style>
+</head>
+
+<body>
+
+    <!-- Menu de Navegação Superior -->
+    <div class="topnav">
+        <a href="index.html">Início</a>
+        <a href="backtesting_report.html">📑 Relatório de Backtesting</a>
+        <a href="current_positions.html">📊 Posições Atuais</a>
+        <a href="historical_returns.html">📈 Retornos Paper Trading</a>
+		<a href="faq.html">Perguntas Frequentes</a>
+    </div>
+<div id="summary" style="padding: 30px; background-color: white; max-width: 1080px; margin: 0 auto; text-align: left; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+    <h1>Perguntas Frequentes</h1>
+
+    <div class="faq-item">
+        <h2>1. O que é o Dashboard de Estratégia Quantitativa?</h2>
+        <p>O dashboard é uma plataforma interativa que fornece insights detalhados sobre uma estratégia de negociação quantitativa. Ele permite visualizar dados de backtesting, acompanhar posições simuladas e analisar retornos históricos sem envolver dinheiro real.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>2. Quem pode acessar esta plataforma?</h2>
+        <p>Apenas usuários que receberam um link de convite podem acessar o dashboard. Se você não recebeu um convite, por favor, feche esta página.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>3. Como a estratégia de negociação é estruturada?</h2>
+        <p>A estratégia utiliza aprendizado de máquina, inteligência artificial e ciência de dados para analisar dados históricos e tomar decisões de negociação otimizadas. Ela se baseia exclusivamente em componentes do Ibovespa e leva em conta taxas de aluguel de ações.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>4. Quais são as principais seções do dashboard?</h2>
+        <ul>
+            <li><strong>Relatório de Backtesting (24 Dez 2014 - 31 Jan 2025):</strong> Apresenta métricas como CAGR, Sharpe Ratio, Sortino Ratio e volatilidade anualizada para avaliar a estratégia ao longo do tempo.</li>
+            <li><strong>Posições Atuais de Paper Trading:</strong> Exibe as posições simuladas com base nos dados mais recentes do mercado.</li>
+            <li><strong>Retornos Históricos de Paper Trading:</strong> Mostra o desempenho da estratégia desde 01 Fev 2025, permitindo uma análise do comportamento da estratégia ao longo do tempo.</li>
+        </ul>
+    </div>
+
+    <div class="faq-item">
+        <h2>5. O que significam as métricas apresentadas no backtesting?</h2>
+        <ul>
+            <li><strong>CAGR (Taxa de Crescimento Anual Composta):</strong> Mede a taxa de crescimento do investimento ao longo do tempo.</li>
+            <li><strong>Sharpe Ratio:</strong> Avalia o retorno ajustado ao risco, comparando o desempenho da estratégia com um ativo livre de risco.</li>
+            <li><strong>Sortino Ratio:</strong> Semelhante ao Sharpe Ratio, mas considera apenas a volatilidade negativa (risco de perdas).</li>
+            <li><strong>Volatilidade Anualizada:</strong> Mede a flutuação dos retornos ao longo de um ano.</li>
+        </ul>
+    </div>
+
+    <div class="faq-item">
+        <h2>6. O que é Paper Trading?</h2>
+        <p>Paper Trading é a simulação de negociações em tempo real sem o uso de dinheiro real. Isso permite que os usuários testem estratégias sem correr riscos financeiros.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>7. Como os dados do dashboard são atualizados?</h2>
+        <p>Os dados de backtesting são fixos até 31 Jan 2025, enquanto as posições e retornos de paper trading são atualizados continuamente conforme novas informações de mercado se tornam disponíveis.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>8. Posso utilizar o dashboard para tomar decisões de investimento?</h2>
+        <p>Não. O dashboard é apenas uma ferramenta educacional e de pesquisa. As informações apresentadas não constituem aconselhamento financeiro ou recomendação de investimento.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>9. Como posso explorar diferentes estratégias dentro do dashboard?</h2>
+        <p>Você pode analisar diferentes períodos de tempo, acompanhar métricas de desempenho e comparar retornos históricos para entender melhor como a estratégia se comporta sob diferentes condições de mercado.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>10. Quem devo contatar caso tenha dúvidas?</h2>
+        <p>Se precisar de mais assistência, entre em contato diretamente com o responsável pelo dashboard.</p>
+    </div>
+</div>
+</body>
+</html>
